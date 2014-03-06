@@ -48,7 +48,7 @@
 			for(var i in settings.hooks)
 			{
 				var hook = settings.hooks[i];
-				if(typeof hook !== 'object' || typeof hook.event === 'undefined' 
+				if(typeof hook !== 'object' || typeof hook.event === 'underfined' 
 						|| typeof hook.callback !== 'function')
 				{
 					//A bad hook object was given
